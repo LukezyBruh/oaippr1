@@ -130,7 +130,7 @@ namespace snake
 
         void Move()
         {
-           //перемещение змii
+           //перемещение змiи
             snakeRect.X += stepX;
             snakeRect.Y += stepY;
             if (snakeRect.X < 0 || snakeRect.X > Map.ActualWidth) { bl = true; }
